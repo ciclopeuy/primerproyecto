@@ -1,3 +1,3 @@
 # primerproyecto
 Archivo subidos
-Pagina web: https://github.com/ciclopeuy/primerproyecto
+Pagina web: https://ciclopeuy.github.io/primerproyecto/
