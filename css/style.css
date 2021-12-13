@@ -235,9 +235,11 @@ nav a{
 }
 
 .tituloLineup{
+    font-size: 40px;
+    font-weight: 800;
+    font-style: bold;
     align-items: center;
-    font-size: 30px;
-    padding: 10px;
+    padding: 15px;
     align-content: center;
     text-align: center;
 }
@@ -317,3 +319,10 @@ nav a{
     }
   }
   
+
+.nombreartistas{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.125rem;
+}
