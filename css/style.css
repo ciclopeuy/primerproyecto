@@ -50,14 +50,15 @@ div#videoensobre{
 }
 
 
-header{
+
+/* header{
     grid-area: header;
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content:space-around;
     align-items:center;
     margin-bottom: 1px;
-}
+} */
 
 article#portada{
     grid-area:portada;
@@ -118,7 +119,7 @@ footer{
     ;
 }
 
-header li{
+/* header li{
     display: inline-block;
     justify-content: center;
     padding: 5px 10px;
@@ -128,7 +129,7 @@ header li{
     color:black;    
     text-align: center;
     font-weight: 800;
-}
+} */
 
 article#sobre h2{
     color: blanchedalmond;
@@ -168,7 +169,7 @@ footer div{
 
 
   
-  /*Desktop*/
+  /*Desktop
 @media screen and (min-width:1200px) {
     main{
         grid-template-columns: 1fr 1fr;
@@ -181,15 +182,15 @@ footer div{
         ;
     }   
 }
+*/
 
-
-
+/*
 nav a{
     text-decoration: none;
     color: inherit;
     font-size: 16px;
     text-align: center;
-}
+}*/
 
 
 #sobreElFestival{
