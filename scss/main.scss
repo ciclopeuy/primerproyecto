@@ -1,0 +1,50 @@
+//Import
+@import "scpro";
+@import "lineup";
+
+//Variables
+$color-titulo: rgba(255, 0, 0, 0.623);
+
+
+
+.footer{
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 60px;
+
+    h3{
+        color: whitesmoke;
+        font-size: 16px;
+        
+        
+    }
+    img{
+        height: 40px;
+        
+        &:hover{
+            height: 50px;
+        }
+    }
+}
+
+.apoyos{
+    grid-area:apoyos;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+
+    img{
+        width: 100%;
+    }
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+h1{
+    color: $color-titulo;
+}
