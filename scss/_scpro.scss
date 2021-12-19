@@ -2,3 +2,14 @@
     background-color: #ffc107;
     margin-bottom: 10px;
 }
+
+@mixin estiloSaludo {
+    font-size: 1.875rem;
+    font-style: italic;
+    padding: .3125rem;
+    
+    }
+    
+    .saludo{
+        @include estiloSaludo();
+    }

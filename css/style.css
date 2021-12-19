@@ -3,6 +3,12 @@
   margin-bottom: 10px;
 }
 
+.saludo, .volando {
+  font-size: 1.875rem;
+  font-style: italic;
+  padding: 0.3125rem;
+}
+
 .nombreartistas {
   text-align: center;
   background-color: #ffc107;
@@ -52,6 +58,19 @@
 
 h1 {
   color: rgba(255, 0, 0, 0.623);
+}
+
+.volando {
+  color: rgba(255, 0, 0, 0.623);
+}
+
+.saludo, .volando {
+  color: rgba(255, 0, 0, 0.623);
+}
+
+.nav-item {
+  font-size: 1.125rem;
+  color: yellow;
 }
 
 /*# sourceMappingURL=style.css.map */

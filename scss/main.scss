@@ -48,3 +48,30 @@ $color-titulo: rgba(255, 0, 0, 0.623);
 h1{
     color: $color-titulo;
 }
+
+.volando{
+    @extend .saludo;
+}
+
+//APLICANDO MAPAS
+$colores:(
+principal:rgba(255, 0, 0, 0.623),
+secundario:rgba(255, 255, 0, 0.836),
+
+  );
+
+$secundario: map-get($colores,secundario);
+$principal:map-get($colores, principal);
+
+.volando{
+    color: $principal;
+}
+
+.saludo{
+    color: $principal;
+}
+
+.nav-item{
+    font-size: 1.125rem;
+    color: yellow;
+}
