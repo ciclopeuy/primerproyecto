@@ -1,6 +1,7 @@
 .container-fluid {
   background-color: #ffc107;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .saludo, .volando {
@@ -35,10 +36,10 @@
   font-size: 16px;
 }
 .footer img {
-  height: 40px;
+  height: 30px;
 }
 .footer img:hover {
-  height: 50px;
+  height: 35px;
 }
 
 .apoyos {
@@ -71,6 +72,41 @@ h1 {
 .nav-item {
   font-size: 1.125rem;
   color: yellow;
+}
+
+a {
+  text-decoration: none;
+  font-color: rgba(255, 0, 0, 0.623);
+  color: #ffff00d5;
+}
+
+.presentacion {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffff00d5;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .presentacion {
+    font-size: 90px;
+  }
+}
+a {
+  color: rgba(255, 0, 0, 0.623);
+  font-weight: 600;
+}
+
+.nav-item :hover {
+  background-color: rgba(255, 0, 0, 0.623);
+}
+
+.logonav {
+  height: 90px;
 }
 
 /*# sourceMappingURL=style.css.map */

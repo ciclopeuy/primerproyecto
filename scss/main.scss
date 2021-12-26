@@ -21,10 +21,10 @@ $color-titulo: rgba(255, 0, 0, 0.623);
         
     }
     img{
-        height: 40px;
+        height: 30px;
         
         &:hover{
-            height: 50px;
+            height: 35px;
         }
     }
 }
@@ -35,6 +35,7 @@ $color-titulo: rgba(255, 0, 0, 0.623);
     justify-content: center;
     align-items: center;
     margin-bottom: 1px;
+    
 
     img{
         width: 100%;
@@ -56,7 +57,7 @@ h1{
 //APLICANDO MAPAS
 $colores:(
 principal:rgba(255, 0, 0, 0.623),
-secundario:rgba(255, 255, 0, 0.836),
+secundario:#ffff00d5,
 
   );
 
@@ -75,3 +76,42 @@ $principal:map-get($colores, principal);
     font-size: 1.125rem;
     color: yellow;
 }
+
+a{
+    text-decoration: none;
+    font-color: $principal;
+    color: $secundario;
+}
+
+.presentacion{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: 900;
+    color: $secundario;
+    text-align: center;
+    }
+
+    @media (min-width: 1200px) {
+        .presentacion{
+            font-size: 90px;
+        }
+         }
+
+a{
+    color: $principal;
+    font-weight: 600;
+}
+
+.nav-item{
+    :hover{
+        background-color:$principal;
+    }
+}
+
+.logonav{
+    height: 90px;
+}
+
