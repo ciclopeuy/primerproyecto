@@ -1,6 +1,4 @@
 # primerproyecto
 Archivo subidos
-Pagina web: https://ciclopeuy.github.io/primerproyecto/
+Pagina web: https://ciclopeuy.github.io/MvdSoundcity/
 
-Se aplico Bootstrap y se mejoror el diseño en todo el sitio web
-Se sube segunda entrega
